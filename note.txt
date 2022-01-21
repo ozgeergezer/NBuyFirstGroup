@@ -1,0 +1,21 @@
+domain: iþ kurallarýný burada tanýmlarsýn. mesela bir sýnýf 12 kiþi olacak sonra þartlar deðiþir 15 yaparsýn gibi. BL gibi. entity modeller burada
+application : butona bas raporu çek. kullanýcýya göre raporun generate edilmesi domain katmanýna ait.
+persistance: vt teknologisi olan katman
+Infrastructure : e posta em ail servisleri neler nasýl bir alt yapý kullanacaðýz farklý api, resimler asp entegrasyonlarý gibi þeyler. alt yapýsal iþlemler
+presantation : controllerlar ilk istekler
+
+application katmaný iþ kuralý varsa domain yoksa Infrastructure, persistance , presantationile haberleþir.
+tüm katmanlar domain ile iletiþebilir. iþ katmaný çünkü
+tüm katmanlar domain katmanýna baðlanýr referans alýr ama domain hiçbirinden referans almaz
+
+core katmaný : ana proje oluþturma klavuzumuz gibi bir çok projede kullanabiliriz içinde iþ yaoan bir þey yok sadece yol gösterir.Base bi servis var tüm servisler burdan implemente olacak buraya yaz. baþka projede açmaya gerek yok burdan alabiliriz. tüm katmanlar kullanabilir içinde Interface(kendi uyg kendi mantýðýmýza göre yazýyoruz. nasýl implemente olacaðýn karar veriyoruz yani polimorfizm) abstract kalýtým olanlar kullanýlmalý. içinde kod olmamalý. BaseEntity, IRepository, AppServices, IEmailServices, ISmsServices, IUploaded gibi
+
+****************************************************************************************************************************
+Cross-Cutting Layer : Diðer 3 katmana ait projelerin ihtiyaç duyduðu ve projelerdeki teknik fonksiyonelliði içeren projeleri barýndýrýr.Caching,ExceptionHandler,Loging gibi mekanizmalar bu katmanda yer alýr ve ihtiyaca göre diðer katmanda bulunan projelere referans edilir.Burada kullanýlan projeler kendi geliþtirdiðiniz projelerde veya third party projelerde kullanýlýr.Örneðin Microsoft best-practices lerinde olan Enterprise Library içeirisindeki block lar kullanýlabilir.
+
+Presentation Layer : Yapýlan uygulamanýn kullanýcý arayüzüne ait projeler bu katmanda oluþturulur.Bu katmanda yapýlan projeler; Web uygulamalarý,mobil siteler, mobil uygulamalar,Silverlight,Winform veya Html 5 gibi uygulamalarýnýn kullanýcý arayüzüne ait dosyalar yer alýr diyebiliriz.
+
+Business Layer : Uygulamanýn iþ mantýðý, Veritabanýna ait oprasyonel(CRUD) iþlemler , kullanýcý rolleri,yönetimi,yetkilendirmeler bu katmanda yapýlan projelerin sorumluluðundadýr.
+
+Data Access Layer : Sadece Veritabanýna eriþimi saðlamakla sorumlu katmandýr.Her veritabaný için ayrý bir veriye eriþim sýnýfýný içerebilir.Kurumsal uygulamalarda Kullancý tablolarý,raporlara ait tablolar,temel uygulama tablolarý farklý farklý veritabanlarýnda bulunabilir.Bu katmanda yazýlan veri eriþim sýnýfý biraz daha soyut ve daha generic bir yapýda olmasýna dikkat edilmelidir.
+****************************************************************************************************************************
