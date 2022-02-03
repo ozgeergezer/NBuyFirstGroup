@@ -42,8 +42,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NBuyFirstGroup.Core", "NBuyFirstGroup.Core\NBuyFirstGroup.Core.csproj", "{5ED8D4E9-6C34-413E-9DF1-351C990FB004}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WERT", "WERT\WERT.csproj", "{BCD94BBB-7E66-49B6-B406-46D44A144012}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,10 +52,6 @@ Global
 		{5ED8D4E9-6C34-413E-9DF1-351C990FB004}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5ED8D4E9-6C34-413E-9DF1-351C990FB004}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5ED8D4E9-6C34-413E-9DF1-351C990FB004}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BCD94BBB-7E66-49B6-B406-46D44A144012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BCD94BBB-7E66-49B6-B406-46D44A144012}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BCD94BBB-7E66-49B6-B406-46D44A144012}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BCD94BBB-7E66-49B6-B406-46D44A144012}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,7 +72,6 @@ Global
 		{29097D63-D9C7-4321-A68E-C7B1E34A2955} = {D29EC51B-A519-45A0-9B1F-B15ABF6753A7}
 		{8A9A443B-8E29-42B4-ABAD-95B281237E4E} = {D29EC51B-A519-45A0-9B1F-B15ABF6753A7}
 		{5ED8D4E9-6C34-413E-9DF1-351C990FB004} = {7EEAE7E4-531D-4B28-8185-98A8D3E47182}
-		{BCD94BBB-7E66-49B6-B406-46D44A144012} = {BC249E8F-707F-42F9-BE9A-019D8EB948B0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {93AC0D02-711D-4568-8034-4B4DEFDD3526}
