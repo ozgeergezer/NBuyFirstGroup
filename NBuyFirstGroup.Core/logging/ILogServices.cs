@@ -17,6 +17,6 @@ namespace NBuyFirstGroup.Core.logging
     // yapılan işlemlere ait kayıtları izleyebilmek için bu servisin log methodunu kullanacağız. message ve logLevel loglama kriktiklik seviyesi
     public interface ILogServices
     {
-        void Log(string message)
+        void Log(string message);
     }
 }

@@ -40,19 +40,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		note.txt = note.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBuyFirstGroupBlog.Domain", "NBuyFirstGroupBlog\NBuyFirstGroupBlog.Domain.csproj", "{3D45B9BF-C09B-47B2-8CC7-49A0C34B3478}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NBuyFirstGroup.Domain", "NBuyFirstGroupBlog\NBuyFirstGroup.Domain.csproj", "{3D45B9BF-C09B-47B2-8CC7-49A0C34B3478}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBuyFirstGroupBlog.Infrastructure", "NBuyFirstGroupBlog.Infrastructure\NBuyFirstGroupBlog.Infrastructure.csproj", "{AA5B55B4-AF90-4D94-BE35-451740D91869}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NBuyFirstGroup.Infrastructure", "NBuyFirstGroupBlog.Infrastructure\NBuyFirstGroup.Infrastructure.csproj", "{AA5B55B4-AF90-4D94-BE35-451740D91869}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBuyFirstGroupBlog.Application", "NBuyFirstGroupBlog.Application\NBuyFirstGroupBlog.Application.csproj", "{4F93C2A3-F09F-4659-9F42-C35E2580EA29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NBuyFirstGroup.Application", "NBuyFirstGroupBlog.Application\NBuyFirstGroup.Application.csproj", "{4F93C2A3-F09F-4659-9F42-C35E2580EA29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBuyFirstGroupBlog.Persistance", "NBuyFirstGroupBlog.Persistance\NBuyFirstGroupBlog.Persistance.csproj", "{5AA09CBE-911F-40E6-B399-934DA347EFD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NBuyFirstGroup.Persistance", "NBuyFirstGroupBlog.Persistance\NBuyFirstGroup.Persistance.csproj", "{5AA09CBE-911F-40E6-B399-934DA347EFD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBuyFirstGroupBlog.Web.Mvc", "NBuyFirstGroupBlog.Web.Mvc\NBuyFirstGroupBlog.Web.Mvc.csproj", "{F636D905-2A5A-4CFF-973A-6A51F3A33B1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NBuyFirstGroup.Web.Mvc", "NBuyFirstGroupBlog.Web.Mvc\NBuyFirstGroup.Web.Mvc.csproj", "{F636D905-2A5A-4CFF-973A-6A51F3A33B1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBuyFirstGroupBlog.Web.API", "NBuyFirstGroupBlog.Web.API\NBuyFirstGroupBlog.Web.API.csproj", "{45112952-FA7A-4C64-A073-433B04D6A40E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NBuyFirstGroup.Web.API", "NBuyFirstGroupBlog.Web.API\NBuyFirstGroup.Web.API.csproj", "{45112952-FA7A-4C64-A073-433B04D6A40E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBuyFirstGroup.Core", "NBuyFirstGroup.Core\NBuyFirstGroup.Core.csproj", "{5ED8D4E9-6C34-413E-9DF1-351C990FB004}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NBuyFirstGroup.Core", "NBuyFirstGroup.Core\NBuyFirstGroup.Core.csproj", "{5ED8D4E9-6C34-413E-9DF1-351C990FB004}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
